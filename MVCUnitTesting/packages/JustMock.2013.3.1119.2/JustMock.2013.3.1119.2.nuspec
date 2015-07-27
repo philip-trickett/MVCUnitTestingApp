@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>JustMock</id>
+    <version>2013.3.1119.2</version>
+    <title>Telerik JustMock Lite</title>
+    <authors>Telerik AD</authors>
+    <owners>Telerik AD</owners>
+    <licenseUrl>http://www.telerik.com/purchase/license-agreement/justmocklite.aspx</licenseUrl>
+    <projectUrl>http://www.telerik.com/freemocking.aspx</projectUrl>
+    <iconUrl>http://www.telerik.com/libraries/justmock/jmlogo32x32.sflb</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>The most powerful free mocking library available for .NET developers.</description>
+    <summary>The most powerful free mocking library available for .NET developers.</summary>
+    <releaseNotes>New:
+
+New: Support both lite and elevated mocking in Visual Studio 2012 + Windows Store test projects
+
+Fixes:
+
+Fixed: Mock.Create exception on constructor with default parameters
+Fixed: Accidentally referencing Telerik.JustMock.Silverlight in the full .NET run-time goes unnoticed, but results in hard-to-debug issues</releaseNotes>
+    <copyright>Copyright (c) 2010-2013 Telerik AD</copyright>
+    <language>en-US</language>
+    <tags>tdd mocking mocks mock aaa unittest unittesting unit-testing testing fake faking stub stubbing isolation</tags>
+    <dependencies>
+      <dependency id="CommonServiceLocator" version="1.0" />
+      <dependency id="Unity" version="2.1.505.2" />
+    </dependencies>
+  </metadata>
+</package>
