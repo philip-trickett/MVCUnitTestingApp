@@ -54,5 +54,26 @@ namespace MVCUnitTesting.Controllers
 
             return View();
         }
+
+        public ActionResult Edit(int id)
+        {
+            ViewBag.Message = "Your Edit page.";
+
+            return View();
+        }
+
+        public ActionResult Details(int id)
+        {
+            ViewBag.Message = "Your Details page.";
+
+            return View();
+        }
+
+        public ActionResult Delete(int id)
+        {
+            ViewBag.Message = "Your Delete page.";
+
+            return View();
+        }
     }
 }
