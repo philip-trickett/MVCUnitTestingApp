@@ -47,5 +47,12 @@ namespace MVCUnitTesting.Controllers
 
             return View();
         }
+
+        public ActionResult Create()
+        {
+            ViewBag.Message = "Your create page.";
+
+            return View();
+        }
     }
 }
